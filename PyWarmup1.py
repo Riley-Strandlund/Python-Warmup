@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime # Allows the use of dates and time
 
 print('Hello! Please Enter your name and Month that you were born in.')
 
