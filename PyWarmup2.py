@@ -1,17 +1,17 @@
-#get number of classes you are taking and converts them to an integer
+# get number of classes you are taking and converts them to an integer
 numOfClasses = int(input('How many classes are you taking this semester?'))
 
-classes = [] #List
+classes = [] # List
 
-#Loops while numOfClasses is greater than 0 and asks the user to input class names
+# Loops while numOfClasses is greater than 0 and asks the user to input class names
 while numOfClasses > 0:
     ClassName = input("What are the class names?")
-    classes.append(ClassName) #appends to List
+    classes.append(ClassName) # appends to List
     numOfClasses -= 1
     
 
 print("\nThe classes you are taking are:")
-#iterate over classes list and print its content 'x'
+# iterate over classes list and print its content 'x'
 for x in classes:
     print(x)
 
